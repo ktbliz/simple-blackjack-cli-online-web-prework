@@ -45,10 +45,11 @@ end
 
 
 def hit?(card_total)
-  prompt_user
+  puts "Type 'h' to hit or 's' to stay"
   input = gets.chomp
   if input == "h"
     new_card = deal_card
+    puts new_card
     card_total = new_card + card_total
     puts card_total
   elsif input == "s"
