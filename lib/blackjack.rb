@@ -71,6 +71,10 @@ end
 #####################################################
 
 def runner
-  # code rbunner here
+  
+  welcome 
+  card_total = initial_round
+  hit?(card_total)
+  
 end
     
