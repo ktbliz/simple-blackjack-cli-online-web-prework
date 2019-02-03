@@ -22,7 +22,8 @@ end
 
 
 def get_user_input
-  gets.chomp
+  input = gets.chomp
+  return input
 end
 
 
