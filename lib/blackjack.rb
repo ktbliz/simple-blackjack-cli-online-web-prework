@@ -46,7 +46,7 @@ end
 
 def hit?(card_total)
   puts "Type 'h' to hit or 's' to stay"
-  input = gets.chomp
+  input = get_user_input
   if input == "h"
     new_card = deal_card
     puts new_card
