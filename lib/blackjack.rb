@@ -51,7 +51,7 @@ def hit?(card_total)
   input = get_user_input
   if input == "h"
     new_card = deal_card
-    puts new_card
+    # puts new_card
     card_total = new_card + card_total
     puts card_total
     return card_total
