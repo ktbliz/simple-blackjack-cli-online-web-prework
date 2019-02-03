@@ -52,8 +52,10 @@ def hit?(card_total)
     puts new_card
     card_total = new_card + card_total
     puts card_total
+    return card_total
   elsif input == "s"
     puts card_total
+    return card_total
   else 
     invalid_command
   end
