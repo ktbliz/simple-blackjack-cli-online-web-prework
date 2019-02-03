@@ -53,7 +53,7 @@ def hit?(card_total)
     new_card = deal_card
     # puts new_card
     card_total = new_card + card_total
-    puts card_total
+    # puts card_total
     return card_total
   elsif input == "s"
     return card_total
