@@ -82,4 +82,3 @@ def runner
   
 end
     
-runner
